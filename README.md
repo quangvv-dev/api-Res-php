@@ -1,2 +1,2 @@
 # api-Res-php
-Api basic 
+Tạo Api đơn giản vs PHP thuần
