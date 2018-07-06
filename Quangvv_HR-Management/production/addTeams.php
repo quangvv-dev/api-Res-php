@@ -40,7 +40,7 @@ include ("connect.php");
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view">
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+                    <a href="index.php" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
                 </div>
 
                 <div class="clearfix"></div>
@@ -64,99 +64,16 @@ include ("connect.php");
                     <div class="menu_section">
                         <h3>General</h3>
                         <ul class="nav side-menu">
-                            <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                            <li><a href="#"><i class="fa fa-home"></i> Home </a></li>
+                            <li><a><i class="fa fa-edit"></i> Teams <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="index.html">Dashboard</a></li>
-                                    <li><a href="index2.html">Dashboard2</a></li>
-                                    <li><a href="index3.html">Dashboard3</a></li>
+                                    <li><a href="index.php">View List Teams</a></li>                                </ul>
+                            </li>
+                            <li><a><i class="fa fa-edit"></i> Users <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu">
+                                    <li><a href="users.php"">View List Users</a></li>
                                 </ul>
                             </li>
-                            <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="form.html">General Form</a></li>
-                                    <li><a href="form_advanced.html">Advanced Components</a></li>
-                                    <li><a href="form_validation.html">Form Validation</a></li>
-                                    <li><a href="form_wizards.html">Form Wizard</a></li>
-                                    <li><a href="form_upload.html">Form Upload</a></li>
-                                    <li><a href="form_buttons.html">Form Buttons</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="general_elements.html">General Elements</a></li>
-                                    <li><a href="media_gallery.html">Media Gallery</a></li>
-                                    <li><a href="typography.html">Typography</a></li>
-                                    <li><a href="icons.html">Icons</a></li>
-                                    <li><a href="glyphicons.html">Glyphicons</a></li>
-                                    <li><a href="widgets.html">Widgets</a></li>
-                                    <li><a href="invoice.html">Invoice</a></li>
-                                    <li><a href="inbox.html">Inbox</a></li>
-                                    <li><a href="calendar.html">Calendar</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="tables.html">Tables</a></li>
-                                    <li><a href="tables_dynamic.html">Table Dynamic</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="chartjs.html">Chart JS</a></li>
-                                    <li><a href="chartjs2.html">Chart JS2</a></li>
-                                    <li><a href="morisjs.html">Moris JS</a></li>
-                                    <li><a href="echarts.html">ECharts</a></li>
-                                    <li><a href="other_charts.html">Other Charts</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
-                                    <li><a href="fixed_footer.html">Fixed Footer</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="menu_section">
-                        <h3>Live On</h3>
-                        <ul class="nav side-menu">
-                            <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="e_commerce.html">E-commerce</a></li>
-                                    <li><a href="projects.html">Projects</a></li>
-                                    <li><a href="project_detail.html">Project Detail</a></li>
-                                    <li><a href="contacts.html">Contacts</a></li>
-                                    <li><a href="profile.html">Profile</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="page_403.html">403 Error</a></li>
-                                    <li><a href="page_404.html">404 Error</a></li>
-                                    <li><a href="page_500.html">500 Error</a></li>
-                                    <li><a href="plain_page.html">Plain Page</a></li>
-                                    <li><a href="login.html">Login Page</a></li>
-                                    <li><a href="pricing_tables.html">Pricing Tables</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="#level1_1">Level One</a>
-                                    <li><a>Level One<span class="fa fa-chevron-down"></span></a>
-                                        <ul class="nav child_menu">
-                                            <li class="sub_menu"><a href="level2.html">Level Two</a>
-                                            </li>
-                                            <li><a href="#level2_1">Level Two</a>
-                                            </li>
-                                            <li><a href="#level2_2">Level Two</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#level1_2">Level One</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
                         </ul>
                     </div>
 
@@ -304,17 +221,17 @@ include ("connect.php");
             </div>
             <div class="x_content">
                 <br />
-                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left" method="post" action="">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left" method="post" action="" enctype="multipart/form-data">
 
                     <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Name <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Name <span class="required"></span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <input type="text" name="txtName" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Description <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Description <span class="required"></span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <input type="text" id="last-name" name="txtDes" required="required" class="form-control col-md-7 col-xs-12">
@@ -323,12 +240,12 @@ include ("connect.php");
                     <div class="form-group">
                         <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Logo </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="txtlogo">
+                            <input type="file" name="file" id="fileToUpload" >
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">ID leader <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">ID leader <span class="required"></span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" name="txtLeader" required="required" type="text">
@@ -338,19 +255,58 @@ include ("connect.php");
                     <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
 
-                            <button type="submit" name="submit" class="btn btn-success">Submit</button>
+                            <button type="submit" name="submit" class="btn btn-success" >Submit</button>
                         </div>
                     </div>
                     <?php
-                    if(isset($_POST['submit'])){
-                        $name=$_POST['txtName'];
-                        $logo=$_POST['txtlogo'];
-                        $des = $_POST['txtDes'];
-                        $leader=$_POST['txtLeader'];
-                        $sql = "INSERT INTO `teams`( `name`, `description`, `logo`, `leader_id`) VALUES ( '$name','$des','$logo','$leader')";
-                        mysqli_query($conn,$sql);
-                        $url = 'http://localhost/hrm/production';
-                        echo '<META HTTP-EQUIV=REFRESH CONTENT="1; '.$url.'">';
+                    if(isset($_POST['submit'])) {
+//                        upload anh
+                            var_dump($_FILES["file"]["name"]);
+                        if($_FILES["file"]["name"]!=NULL)
+                        {
+
+                            if($_FILES["file"]["type"]=="image/jpeg"
+                                ||$_FILES["file"]["type"]=="image/png"
+                                ||$_FILES["file"]["type"]=="image/gif"
+                            )
+                            {
+                                if($_FILES["file"]["size"]>1048576)
+                                {
+                                    echo "file quá nang";
+                                }
+                                else{
+
+                                    $path = "images/"; // file luu vào thu muc chua file upload
+                                    $tmp_name = $_FILES['file']['tmp_name'];
+                                    $nameImg = $_FILES['file']['name'];
+                                    $type = $_FILES['file']['type'];
+                                    $size = $_FILES['file']['size'];
+// Upload file
+//                                    move_uploaded_file($tmp_name,$path.$name);
+//                                    echo "File uploaded! <br />";
+//                                    echo "Tên file : ".$nameImg."<br />";
+//                                    echo "Kieu file : ".$type."<br />";
+//                                    echo "foder luu tru : ".$path.$nameImg;
+                                }
+                            }
+                            else {
+                                echo "file duoc chon khong hop le";
+                            }
+                        }
+                        else
+                        {
+                            echo "vui long chon file";
+                        }
+//                        end upload
+
+                            $name = $_POST['txtName'];
+                            $des = $_POST['txtDes'];
+                            $leader = $_POST['txtLeader'];
+                            $sql = "INSERT INTO `teams`( `name`, `description`, `logo`, `leader_id`) VALUES ( '$name','$des','$nameImg','$leader')";
+                            mysqli_query($conn, $sql);
+                            $url = 'http://localhost/hrm/production';
+                            echo '<META HTTP-EQUIV=REFRESH CONTENT="1; ' . $url . '">';
+
                     }
 
                     ?>
@@ -399,6 +355,7 @@ include ("connect.php");
 
             <!-- Custom Theme Scripts -->
             <script src="../build/js/custom.js"></script>
+
 
 </body>
 </html>

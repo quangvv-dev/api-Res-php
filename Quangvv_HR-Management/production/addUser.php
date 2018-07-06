@@ -40,7 +40,7 @@ include ("connect.php");
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view">
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+                    <a href="index.php" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
                 </div>
 
                 <div class="clearfix"></div>
@@ -64,99 +64,16 @@ include ("connect.php");
                     <div class="menu_section">
                         <h3>General</h3>
                         <ul class="nav side-menu">
-                            <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                            <li><a href="#"><i class="fa fa-home"></i> Home </a></li>
+                            <li><a><i class="fa fa-edit"></i> Teams <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="index.html">Dashboard</a></li>
-                                    <li><a href="index2.html">Dashboard2</a></li>
-                                    <li><a href="index3.html">Dashboard3</a></li>
+                                    <li><a href="index.php">View List Teams</a></li>                                </ul>
+                            </li>
+                            <li><a><i class="fa fa-edit"></i> Users <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu">
+                                    <li><a href="users.php"">View List Users</a></li>
                                 </ul>
                             </li>
-                            <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="form.html">General Form</a></li>
-                                    <li><a href="form_advanced.html">Advanced Components</a></li>
-                                    <li><a href="form_validation.html">Form Validation</a></li>
-                                    <li><a href="form_wizards.html">Form Wizard</a></li>
-                                    <li><a href="form_upload.html">Form Upload</a></li>
-                                    <li><a href="form_buttons.html">Form Buttons</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="general_elements.html">General Elements</a></li>
-                                    <li><a href="media_gallery.html">Media Gallery</a></li>
-                                    <li><a href="typography.html">Typography</a></li>
-                                    <li><a href="icons.html">Icons</a></li>
-                                    <li><a href="glyphicons.html">Glyphicons</a></li>
-                                    <li><a href="widgets.html">Widgets</a></li>
-                                    <li><a href="invoice.html">Invoice</a></li>
-                                    <li><a href="inbox.html">Inbox</a></li>
-                                    <li><a href="calendar.html">Calendar</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="tables.html">Tables</a></li>
-                                    <li><a href="tables_dynamic.html">Table Dynamic</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="chartjs.html">Chart JS</a></li>
-                                    <li><a href="chartjs2.html">Chart JS2</a></li>
-                                    <li><a href="morisjs.html">Moris JS</a></li>
-                                    <li><a href="echarts.html">ECharts</a></li>
-                                    <li><a href="other_charts.html">Other Charts</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
-                                    <li><a href="fixed_footer.html">Fixed Footer</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="menu_section">
-                        <h3>Live On</h3>
-                        <ul class="nav side-menu">
-                            <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="e_commerce.html">E-commerce</a></li>
-                                    <li><a href="projects.html">Projects</a></li>
-                                    <li><a href="project_detail.html">Project Detail</a></li>
-                                    <li><a href="contacts.html">Contacts</a></li>
-                                    <li><a href="profile.html">Profile</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="page_403.html">403 Error</a></li>
-                                    <li><a href="page_404.html">404 Error</a></li>
-                                    <li><a href="page_500.html">500 Error</a></li>
-                                    <li><a href="plain_page.html">Plain Page</a></li>
-                                    <li><a href="login.html">Login Page</a></li>
-                                    <li><a href="pricing_tables.html">Pricing Tables</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="#level1_1">Level One</a>
-                                    <li><a>Level One<span class="fa fa-chevron-down"></span></a>
-                                        <ul class="nav child_menu">
-                                            <li class="sub_menu"><a href="level2.html">Level Two</a>
-                                            </li>
-                                            <li><a href="#level2_1">Level Two</a>
-                                            </li>
-                                            <li><a href="#level2_2">Level Two</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#level1_2">Level One</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
                         </ul>
                     </div>
 
@@ -304,43 +221,155 @@ include ("connect.php");
                 </div>
                 <div class="x_content">
                     <br />
-                            <?php
-                            include ('connect.php');
-                            if(isset($_GET['id']))
-                            {   $id =   $_GET['id'];
-                                $sql =   "SELECT * FROM `teams` where `id`=$id";
-                                $query  =   mysqli_query($conn,$sql);}
-                            while($row    =   mysqli_fetch_array($query))
-                            {
-                            ?>
-                    <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left" method="post" action="#">
+                    <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left" method="post"  enctype="multipart/form-data">
 
                         <div class="form-group">
                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Name <span class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input  type="text" name="txtName" id="first-name" required="required" class="form-control col-md-7 col-xs-12"value="<?php echo $row['name'] ?>">
+                                <input type="text" name="name" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Description <span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">email <span class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input  type="text" id="last-name" name="txtDes" required="required" class="form-control col-md-7 col-xs-12" value="<?php  echo $row["description"]?>">
+                                <input type="email" id="last-name" name="email" required="required" class="form-control col-md-7 col-xs-12">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Logo </label>
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">email_personal </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input  id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="txtlogo" value="<?php  echo $row["logo"]?>">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="email" name="emailP">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Leader_ID<span class="required">*</span>
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Password <span class="required">*</span>
                             </label>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                <input  type="text" name="txtLeader" id="first-name" required="required" class="form-control col-md-7 col-xs-12" value="<?php echo $row['leader_id'] ?>">
+                                <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" name="password" required="required" type="password">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">remember_token <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" name="token" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">image <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="file" name="file" id="fileToUpload" >
+                                
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">gender </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="radio" name="gender" value="1"> Nam<br>
+                                <input type="radio" name="gender" value="2"> Nữ<br>
+                                <input type="radio" name="gender" value="3"> K xác định
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">date_of_birth <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" name="birthday" required="required" type="date">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">identify_id <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" name="indentify" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">phone_number <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="number" id="last-name" name="phone" required="required" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Curent Address</label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="Caddress">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">pernament Address </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="Paddress">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">graduate form </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="graduate">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Salary </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="number" name="salary">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Bank Account number </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="banknumber">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Hobby </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="hobby">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">family Description </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="family">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">language skill </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="language">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Leave Day </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="number" name="leaveday">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">role_id </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="role">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">team_id <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" name="team" required="required" type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">status <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" name="status" required="required" type="number">
                             </div>
                         </div>
                         <div class="ln_solid"></div>
@@ -350,25 +379,74 @@ include ("connect.php");
                                 <button type="submit" name="submit" class="btn btn-success">Submit</button>
                             </div>
                         </div>
-                        <?php
-
-                        if(isset($_POST['submit'])){
-                            $name   =   $_POST['txtName'];
-                            $logo   =   $_POST['txtlogo'];
-                            $des    =   $_POST['txtDes'];
-                            $leader =   $_POST['txtLeader'];
-                            $sql = " UPDATE `teams` SET  `name`='$name',`description`='$des',`logo`='$logo',`leader_id`=$leader WHERE `id`=$id";
-                            mysqli_query($conn,$sql);
-                            // PHP permanent URL redirection test
-                            $url = 'http://localhost/hrm/production';
-                            echo '<META HTTP-EQUIV=REFRESH CONTENT="1; '.$url.'">';
-//                            header('Location:'. http://localhost/hrm/production/index.php);
-                        }
-
-                        ?>
-                       <?php } ?>
-
                     </form>
+                    <?php
+                    if(isset($_POST['submit'])){
+                        if($_FILES["file"]["name"]!=NULL)
+                        {
+
+                            if($_FILES["file"]["type"]=="image/jpeg"
+                                ||$_FILES["file"]["type"]=="image/png"
+                                ||$_FILES["file"]["type"]=="image/gif"
+                            )
+                            {
+                                if($_FILES["file"]["size"]>1048576)
+                                {
+                                    echo "file quá nang";
+                                }
+                                else{
+
+                                    $path = "images/"; // file luu vào thu muc chua file upload
+                                    $tmp_name = $_FILES['file']['tmp_name'];
+                                    $nameImg = $_FILES['file']['name'];
+                                    $type = $_FILES['file']['type'];
+                                    $size = $_FILES['file']['size'];
+                                    // Upload file
+                                    //                                    move_uploaded_file($tmp_name,$path.$name);
+                                    //                                    echo "File uploaded! <br />";
+                                    //                                    echo "Tên file : ".$nameImg."<br />";
+                                    //                                    echo "Kieu file : ".$type."<br />";
+                                    //                                    echo "foder luu tru : ".$path.$nameImg;
+                                }
+                            }
+                            else {
+                                echo "file duoc chon khong hop le";
+                            }
+                        }
+                        else
+                        {
+                            echo "vui long chon file";
+                        }
+                        $name=$_POST['name'];
+                        $email=$_POST['email'];
+                        $emailP=$_POST['emailP'];
+                        $pass=$_POST['password'];
+                        $token=$_POST['remember_token'];
+                        $gender=$_POST['gender'];
+                        $birth=$_POST['birthday'];
+                        $identify=$_POST['indentify'];
+                        $phone=$_POST['phone'];
+                        $CA=$_POST['Caddress'];
+                        $PA=$_POST['Paddress'];
+                        $graduate=$_POST['graduate'];
+                        $salary=$_POST['salary'];
+                        $bank=$_POST['banknumber'];
+                        $hobby=$_POST['hobby'];
+                        $family=$_POST['family'];
+                        $language=$_POST['language'];
+                        $leaveday=$_POST['leaveday'];
+                        $role=$_POST['role'];
+                        $team=$_POST['team'];
+                        $status=$_POST['status'];
+
+                        $sql = "INSERT INTO `user`( `name`, `email`, `email_personal`, `password`, `remember_token`, `image`, `gender`, `date_of_birth`, `identify_id`, `phone_number`, `current_address`, `permanent_addres`, `graduate_from`, `salary`,`bank_account_number`, `hobby`, `family_description`, `language_skills`, `leave_days`, `role_id`, `team_id`, `status`) VALUES ('$name','$email','$emailP','$pass','$token','$nameImg','$gender','$birth','$identify','$phone','$CA','$PA','$graduate','$salary','$bank','$hobby','$family','$language','$leaveday','$role','$team','$status')";
+                        mysqli_query($conn,$sql);
+
+                        $url = 'http://localhost/hrm/production/users.php';
+                        echo '<META HTTP-EQUIV=REFRESH CONTENT="1; '.$url.'">';
+                    }
+
+                    ?>
                 </div>
             </div>
 
